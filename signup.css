@@ -1,0 +1,75 @@
+/* General styles */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("bgsingin.jpg");
+    background-size: cover;
+}
+
+.signup-register {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(12, 180, 138);
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    font-size: 18px;
+    color: rgb(12, 180, 138);
+}
+
+.input-box label {
+    margin-left: 25px;
+    color: rgb(12, 180, 138);
+}
+
+.input-box input {
+    width: calc(100% - 20px);
+    padding: 10px 10px 10px 30px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+p {
+    color: rgb(12, 180, 138);
+    font-size: 18px;
+}
+
+p a {
+    color: rgb(12, 180, 138);
+    height: 10px;
+    width: 25%;
+}
+
+button {
+    background-color: rgb(12, 180, 138);
+    color: white;
+    height: 40px;
+    width: 140px;
+}
